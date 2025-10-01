@@ -11,7 +11,7 @@ export default function Home() {
           {/* Header */}
           <div className="text-center space-y-4">
             <h1 className="text-4xl sm:text-5xl font-bold tracking-tight">
-              Welcome to Auth Flow
+              Welcome to GUVI-AUTH
             </h1>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               Complete authentication system with registration, login, and profile management
