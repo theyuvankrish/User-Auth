@@ -81,53 +81,6 @@ export default function Home() {
             </Card>
           </div>
 
-          {/* Features */}
-          <Card className="bg-muted/50">
-            <CardHeader>
-              <CardTitle>Features</CardTitle>
-            </CardHeader>
-            <CardContent>
-              <ul className="grid sm:grid-cols-2 gap-3">
-                <li className="flex items-start gap-2">
-                  <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center mt-0.5 flex-shrink-0">
-                    <div className="w-2 h-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Secure email & password registration</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center mt-0.5 flex-shrink-0">
-                    <div className="w-2 h-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Form validation & error handling</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center mt-0.5 flex-shrink-0">
-                    <div className="w-2 h-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Protected profile page</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center mt-0.5 flex-shrink-0">
-                    <div className="w-2 h-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Update personal details (age, DOB, contact)</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center mt-0.5 flex-shrink-0">
-                    <div className="w-2 h-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Local storage persistence</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <div className="w-5 h-5 rounded-full bg-primary/20 flex items-center justify-center mt-0.5 flex-shrink-0">
-                    <div className="w-2 h-2 rounded-full bg-primary" />
-                  </div>
-                  <span className="text-sm">Logout functionality</span>
-                </li>
-              </ul>
-            </CardContent>
-          </Card>
-
           {/* Quick Start */}
           <Card className="border-primary/20 bg-primary/5">
             <CardHeader>
